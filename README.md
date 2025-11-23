@@ -10,7 +10,6 @@ The application allows the Admin to log in, search products, filter categories, 
 - **Username:** admin
 - **Password:** admin123
 
-*Note: These credentials are configured in the database. You can modify them by updating the admin table in your database.*
 
 # 📌 Project Overview
 
