@@ -81,58 +81,19 @@ java -cp out Main
 ```
 OnlineEcommerceSmartbuy/
 │
-├── src/                                    # Source code directory
-│   ├── com/
-│   │   └── ecommerce/
-│   │       ├── main/
-│   │       │   └── Main.java              # Main entry point of application
-│   │       │
-│   │       ├── model/                      # Data Models (Entity Classes)
-│   │       │   ├── Product.java           # Product entity
-│   │       │   ├── Category.java          # Category entity
-│   │       │   ├── Admin.java             # Admin user entity
-│   │       │   └── Cart.java              # Shopping cart entity
-│   │       │
-│   │       ├── view/                       # UI Components (Swing Views)
-│   │       │   ├── LoginFrame.java        # Login screen
-│   │       │   ├── DashboardFrame.java    # Main dashboard
-│   │       │   ├── ProductPanel.java      # Product display panel
-│   │       │   └── CategoryPanel.java     # Category filter panel
-│   │       │
-│   │       ├── controller/                 # Business Logic Controllers
-│   │       │   ├── LoginController.java   # Handles login authentication
-│   │       │   ├── ProductController.java # Manages product operations
-│   │       │   └── CartController.java    # Handles cart operations
-│   │       │
-│   │       ├── dao/                        # Database Access Objects
-│   │       │   ├── DatabaseConnection.java # JDBC connection manager
-│   │       │   ├── ProductDAO.java        # Product database operations
-│   │       │   ├── CategoryDAO.java       # Category database operations
-│   │       │   └── AdminDAO.java          # Admin database operations
-│   │       │
-│   │       └── util/                       # Utility Classes
-│   │           ├── Validator.java         # Input validation
-│   │           └── Constants.java         # Application constants
+├── OnlineEcommerceSmartbuy/                    # Main project directory
 │   │
-│   └── resources/                          # Resource files
-│       ├── images/                         # Product images
-│       └── config.properties               # Configuration file
+│   ├── src/                                    # Source code directory
+│   │   ├── Main.java                           # Primary entry point
+│   │   └── OnlineEcommerceSmartbuy.java        # Alternative entry point
+│   │
+│   ├── out/                                    # Build output directory
+│   │   └── production/                         # Production build files
+│   │       └── OnlineEcommerceSmartbuy/        # Compiled .class files
+│   │
+│   └── OnlineEcommerceSmartbuy.iml             # IntelliJ project file
 │
-├── lib/                                    # External libraries
-│   └── mysql-connector-java.jar           # MySQL JDBC driver
-│
-├── database/                               # Database scripts
-│   ├── schema.sql                         # Database schema
-│   └── sample_data.sql                    # Sample data for testing
-│
-├── out/                                    # Compiled .class files (build output)
-│
-├── docs/                                   # Documentation
-│   └── javadoc/                           # Generated Javadoc
-│
-├── .idea/                                  # IntelliJ IDEA configuration
-├── OnlineEcommerceSmartbuy.iml            # IntelliJ project file
-└── README.md                               # Project documentation (this file)
+└── README.md                                   # Project documentation
 ```
 
 # 🎮 Application Features
