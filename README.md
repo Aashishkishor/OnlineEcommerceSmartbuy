@@ -82,17 +82,23 @@ Copy code
 java -cp out Main
 
 # 📁 Project Structure
+
 OnlineEcommerceSmartbuy/
-├── src/
-│   ├── Main.java                      Application entry point
-│   ├── OnlineEcommerceSmartbuy.java   Core logic and dashboard
-│   ├── Product.java                   Product entity (OOP)
-│   ├── User.java/Admin.java           User and admin models
-│   ├── Cart.java                      Cart functionality
-│   ├── DatabaseHelper.java            JDBC connectivity and DB operations
-│   └── ...                            Additional MVC modules
-├── README.md                          Documentation
-└── .gitignore
+│
+├── OnlineEcommerceSmartbuy/                    # Main project directory
+│   │
+│   ├── src/                                    # Source code directory
+│   │   ├── Main.java                           # Primary entry point of the application
+│   │   └── OnlineEcommerceSmartbuy.java       # Alternative entry point (same functionality)
+│   │
+│   ├── out/                                    # Build output directory
+│   │   └── production/                         # Production build files
+│   │       └── OnlineEcommerceSmartbuy/       # Compiled .class files
+│   │
+│   └── OnlineEcommerceSmartbuy.iml            # IntelliJ IDEA project configuration file
+│
+└── README.md                                   # Project documentation (this file)
+
 
 # 🎮Application Features
 👤 Add Product
