@@ -132,9 +132,14 @@ We will learn:
 
 Open source for educational and academic Project use.
 
-# 👤 Author
+# 👤 Team members
 
-**[Aashish kishor]** [https://github.com/Aashishkishor]
+TEAM NAME : The Hivers
+TEAM MEMBERS:-
+Shree Rajan(Team Leader); 
+  Suhana Kumari;
+Aashish Kishor;
+[https://github.com/Aashishkishor]
 
 Project: OnlineEcommerceSmartbuy
 
